@@ -158,7 +158,7 @@ class PriceTable extends React.Component {
   render() {
     return (
       <>
-        <Table striped bordered hover variant="dark">
+        <Table striped bordered hover variant="dark" responsive>
           <thead>
             <tr>
               <th></th>
