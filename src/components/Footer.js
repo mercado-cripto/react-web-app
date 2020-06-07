@@ -45,7 +45,7 @@ class PriceTable extends React.Component {
               <img
                 alt="btc"
                 width="45"
-                src={require("../imgs/btc.png")}
+                src={require("../assets/btc.png")}
                 onClick={() => {
                   this.showModal("BTC", "1HMugYDr83APw8zY8DKKTK7Y6b1eF8C89J");
                 }}
@@ -53,7 +53,7 @@ class PriceTable extends React.Component {
               <img
                 alt="eth"
                 width="45"
-                src={require("../imgs/eth.png")}
+                src={require("../assets/eth.png")}
                 onClick={() => {
                   this.showModal(
                     "ETH",
