@@ -74,7 +74,7 @@ class PriceTable extends React.Component {
           <div className="footer-copyright text-center py-3">
             © 2020 MercadoCripto
             <a
-              href="https://github.com/LeoSalgadoA/Mercado-Cripto"
+              href="https://github.com/mercado-cripto"
               target="_BLANK"
               rel="noopener noreferrer"
             >
