@@ -162,16 +162,16 @@ class PriceTable extends React.Component {
           <thead>
             <tr>
               <th></th>
-              <th>Buda</th>
-              <th>CryptoMkt</th>
-              <th>OrionX</th>
-              <th>Satoshi Tango</th>
-              <th>CoinMarketCap</th>
+              <th><a href="https://www.buda.com/" target="_blank" rel="noopener noreferrer">Buda</a></th>
+              <th><a href="https://www.cryptomkt.com/" target="_blank" rel="noopener noreferrer">CryptoMkt</a></th> 
+              <th><a href="https://www.orionx.com/" target="_blank" rel="noopener noreferrer">OrionX</a></th>
+              <th><a href="https://www.satoshitango.com/" target="_blank" rel="noopener noreferrer">Satoshi Tango</a></th>
+              <th><a href="https://coinmarketcap.com/" target="_blank" rel="noopener noreferrer">CoinMarketCap</a></th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>BTC</td>
+              <td><a href="https://bitcoin.org/" target="_blank" rel="noopener noreferrer">BTC</a></td>
               <td className="uno">{this.getDataInfo("BUDA", "BTC")}</td>
               <td>{this.getDataInfo("CMKT", "BTC")}</td>
               <td>{this.getDataInfo("ORX", "BTC")}</td>
@@ -179,7 +179,7 @@ class PriceTable extends React.Component {
               <td>{this.getDataInfo("CMC", "BTC")}</td>
             </tr>
             <tr>
-              <td>ETH</td>
+              <td><a href="https://www.ethereum.org/" target="_blank" rel="noopener noreferrer">ETH</a></td>
               <td>{this.getDataInfo("BUDA", "ETH")}</td>
               <td>{this.getDataInfo("CMKT", "ETH")}</td>
               <td>{this.getDataInfo("ORX", "ETH")}</td>
@@ -187,7 +187,7 @@ class PriceTable extends React.Component {
               <td>{this.getDataInfo("CMC", "ETH")}</td>
             </tr>
             <tr>
-              <td>LTC</td>
+              <td><a href="https://litecoin.org/" target="_blank" rel="noopener noreferrer">LTC</a></td>
               <td>{this.getDataInfo("BUDA", "LTC")}</td>
               <td>{this.getDataInfo("CMKT", "LTC")}</td>
               <td>{this.getDataInfo("ORX", "LTC")}</td>
