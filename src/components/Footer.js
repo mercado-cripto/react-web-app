@@ -43,6 +43,7 @@ class PriceTable extends React.Component {
                 Agradecemos Donaciones
               </h5>
               <img
+                className="pointer"
                 alt="btc"
                 width="45"
                 src={require("../assets/btc.png")}
@@ -51,6 +52,7 @@ class PriceTable extends React.Component {
                 }}
               />{" "}
               <img
+                className="pointer"
                 alt="eth"
                 width="45"
                 src={require("../assets/eth.png")}
